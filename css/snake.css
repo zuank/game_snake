@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.gameContent{	
+	width: 400px;
+	height: 400px;
+	background: #ABCDEF;
+	margin: 20px auto;
+	border: 2px solid #FFFFFF;
+	position: relative;
+	display: none;
+}
+.gameContent > span{
+	
+	position: absolute;
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: red;
+	
+}
+.gameContent .apple{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: #000000;
+}
